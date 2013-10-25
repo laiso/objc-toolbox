@@ -1,0 +1,64 @@
+---
+- !ruby/object:Pod::Specification::Set
+  name: 500px-iOS-api
+  sources:
+  - &2 !ruby/object:Pod::Source
+    repo: &1 !ruby/object:Pathname
+      path: /Users/ore/.cocoapods/repos/master
+    specs_dir: *1
+  required_by: []
+  dependencies: []
+- !ruby/object:Pod::Specification::Set
+  name: _.m
+  sources:
+  - *2
+  required_by: []
+  dependencies: []
+- !ruby/object:Pod::Specification::Set
+  name: A2DynamicDelegate
+  sources:
+  - *2
+  required_by: []
+  dependencies: []
+- !ruby/object:Pod::Specification::Set
+  name: A2StoryboardSegueContext
+  sources:
+  - *2
+  required_by: []
+  dependencies: []
+- !ruby/object:Pod::Specification::Set
+  name: A3GridTableView
+  sources:
+  - *2
+  required_by: []
+  dependencies: []
+- !ruby/object:Pod::Specification::Set
+  name: AAImageUtils
+  sources:
+  - *2
+  required_by: []
+  dependencies: []
+- !ruby/object:Pod::Specification::Set
+  name: AALaunchTransition
+  sources:
+  - *2
+  required_by: []
+  dependencies: []
+- !ruby/object:Pod::Specification::Set
+  name: ABCalendarPicker
+  sources:
+  - *2
+  required_by: []
+  dependencies: []
+- !ruby/object:Pod::Specification::Set
+  name: ABContactHelper
+  sources:
+  - *2
+  required_by: []
+  dependencies: []
+- !ruby/object:Pod::Specification::Set
+  name: ABCustomUINavigationController
+  sources:
+  - *2
+  required_by: []
+  dependencies: []

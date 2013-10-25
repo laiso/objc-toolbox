@@ -1,0 +1,10 @@
+---
+- !ruby/object:Pod::Specification::Set
+  name: 500px-iOS-api
+  sources:
+  - &2 !ruby/object:Pod::Source
+    repo: &1 !ruby/object:Pathname
+      path: / Users/ore/.cocoapods/repos/master
+    specs_dir: *1
+  required_by: []
+  dependencies: []

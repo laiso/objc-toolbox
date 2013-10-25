@@ -1,0 +1,17 @@
+%h2 Category: #{@category}
+
+%table
+  %thead
+    %tr
+      %label Name
+    %tr
+      %label Forks
+    %tr
+      %label Watchers
+  %tbody
+    - @modules.each do |m|
+      %tr
+        %td&= m.name
+        %td&= m.fork
+        %td&= m.watch
+

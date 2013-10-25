@@ -1,0 +1,7 @@
+development:
+  sessions:
+    default:
+      database: objc-toolbox
+      hosts:
+        - localhost:27017
+

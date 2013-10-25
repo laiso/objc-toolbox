@@ -1,0 +1,18 @@
+!!!
+%html{:lang => "ja"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %title objc-toolbox
+    %meta{:content => "", :name => "keywords"}
+    %meta{:content => "", :name => "description"}
+    %link{:href => "/bower_components/bootstrap/dist/css/bootstrap.min.css", :media => "all", :rel => "stylesheet"}
+    %link{:href => "/css/base.css", :media => "all", :rel => "stylesheet"}
+
+  %body
+    .container
+      #header
+        %h1 Objective-C Toolbox
+      #content= yield
+      #footer
+      %script(src="/bower_components/jquery/jquery.min.js")
+      %script(src="/bower_components/bootstrap/dist/js/bootstrap.min.js")

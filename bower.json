@@ -1,0 +1,17 @@
+{
+    "name": "objc-toolbox",
+    "version": "0.1.0",
+    "main": "public/css/main.css",
+    "ignore": [
+        ".jshintrc",
+        "**/*.txt"
+    ],
+    "dependencies": {
+        "jquery": "*",
+        "bootstrap": "*",
+        "underscore": "*"
+    },
+    "devDependencies": {
+        "mocha": "*"
+    }
+}

@@ -1,0 +1,9 @@
+@media all{
+    a:hover, a:focus  {
+        color: #08c;
+    }
+}
+
+.category p {
+    color: #777;
+}
